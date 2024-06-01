@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.grid-item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid-item1 img {
+    margin-bottom: 20px;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.grid-item img {
+    margin-bottom: 10px;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; /* Adjust the width as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color for better visibility */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   filter: invert(1); /* Invert colors for better visibility on dark backgrounds */
+}
+.carousel-indicators button {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border: none; /* Remove border */
+    width: 12px; /* Increase size */
+    height: 12px; /* Increase size */
+    margin: 1px; /* Add some margin */
+    border-radius: 50%; /* Make them circular */
+}
+
+ .carousel-indicators .active {
+    background-color: darkgrey; 
+    height: 7px;
+    width: 15px;
+}
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+  
